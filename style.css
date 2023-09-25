@@ -1,0 +1,57 @@
+#container{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#calculator{
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#screen{
+    width: 700px;
+    height: 70px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+#buttonContainer{
+    background-color: rgb(208, 237, 247);
+    width: 700px;
+    height: 500px;
+    gap: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+}
+
+#clear{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#delete{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+
+
+
+
+
